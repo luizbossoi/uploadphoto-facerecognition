@@ -8,7 +8,7 @@ from face_embedding import FaceEmbedding
 from flask import Flask, flash, request, redirect, url_for, jsonify, render_template
 from werkzeug.utils import secure_filename
 
-MIN_SIM             = 80
+MIN_SIM             = 78
 UPLOAD_FOLDER       = 'uploads/'
 ALLOWED_EXTENSIONS  = set(['jpg', 'jpeg'])
 modelPath           = "face_detection_model/"
