@@ -1,0 +1,44 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<meta name="viewport" content="viewport-fit=cover width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+		<div class="row ">
+			<div class="col-md-auto">
+				<div class="col-md-auto">
+					<form action="/recognize?front=1" method="post" enctype="multipart/form-data">
+						<div class="form-group">
+							 
+							<label for="photo1">
+								Escolha uma foto de um documento com foto recente (CPF / RG / CNG)
+							</label>
+							<input type="file" name="file" placeholder="Foto documento" class="form-control" />
+						</div>
+						<div class="form-group">
+							 
+							<label for="photo1">
+								Tire uma selfie (sem óculos, máscara ou qualquer outro acessório)
+							</label>
+							<input type="file" name="file" placeholder="Foto selfie" class="form-control" />
+						</div>
+						
+						<button type="submit" class="btn btn-primary">
+							Avaliar
+						</button>
+					</form>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

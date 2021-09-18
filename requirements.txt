@@ -1,0 +1,5 @@
+opencv-contrib-python-headless
+opencv-python-headless
+scipy
+imutils
+flask
